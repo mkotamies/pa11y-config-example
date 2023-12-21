@@ -1,0 +1,14 @@
+{
+  "name": "pa11y-config-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mkotamies/pa11y-config-example.git",
+  "author": "Mikko Kotamies",
+  "license": "MIT",
+  "dependencies": {
+    "pa11y-ci": "^3.1.0"
+  },
+  "scripts": {
+    "test": "pa11y-ci --sitemap https://www.google.com/finance/sitemap.xml"
+  }
+}
